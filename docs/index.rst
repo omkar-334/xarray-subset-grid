@@ -7,13 +7,8 @@ Welcome to xarray-subset-grid's documentation!
 ==============================================
 Subset Xarray datasets in space while retaining the original grid for complex grid systems.
 
-Check out the :ref:`usage` section for further information, including
-how to :ref:`installation` the project.
-
 .. note::
    This project is under active development.
-
-
 
 Contents:
 ==================

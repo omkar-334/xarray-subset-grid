@@ -15,7 +15,7 @@ environments. Please take some time to go over the
 Installing xarray-subset-grid via Conda
 ----------------------------
 
-If you are using (or want to use) `Conda <https://conda.io/en/latest>`, you can install the dependencies with:
+If you are using (or want to use) `Conda <https://conda.io/en/latest>`__, you can install the dependencies with:
 _::
 
     conda install --file conda_requirements.txt
@@ -32,7 +32,7 @@ _::
 Installing xarray-subset-grid via pixi
 ----------------------------
 
-Another option for using conda packages -- this project has been set up to use the `pixi <https://prefix.dev/>` environment management system.
+Another option for using conda packages -- this project has been set up to use the `pixi <https://prefix.dev/>`__ environment management system.
 To use:
 
 See the pixi docs for details, but for this setup:
