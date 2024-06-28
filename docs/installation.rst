@@ -80,7 +80,7 @@ Install
 (link with instructions) on your system if not already available (check
 with ``git --version`` at the command line.)
 
-If you `are` interested in installing xarray-subset-grid from source, 
+If you are interested in installing xarray-subset-grid from source, 
 you will first need to get the latest version of the code::
 
     git clone https://github.com/asascience-open/xarray-subset-grid.git
