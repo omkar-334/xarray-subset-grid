@@ -29,7 +29,7 @@ What Can I Do?
 Ground Rules
 ------------
 
-The goal is to maintain a diverse community that’s pleasant for
+The goal is to maintain a diverse community that's pleasant for
 everyone. Please be considerate and respectful of others by following
 our `code of
 conduct <https://github.com/ioos/.github/blob/main/CODE_OF_CONDUCT.md>`__.

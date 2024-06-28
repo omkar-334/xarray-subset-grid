@@ -16,14 +16,14 @@ Installing xarray-subset-grid via Conda
 ----------------------------
 
 If you are using (or want to use) `Conda <https://conda.io/en/latest>`__, you can install the dependencies with:
-_::
+::
 
     conda install --file conda_requirements.txt
 
 That will get you the full set, including what you need to run the examples, etc.
 
 If you need the development tools, you can also install:
-_::
+::
 
     conda install --file conda_requirements_dev.txt
 
@@ -43,31 +43,32 @@ There are three "environments" set up for pixi:
 --- examples
 
 To run the tests in an isolated environment:
-_::
+::
 
     pixi run -e dev test
 
 To run a shell to do dev work:
-_::
+::
 
     pixi shell -e dev
 
 That will set up a conda environment with all the develop dependencies.
 
 To run a shell in which you can run the examples:
-_::
+::
 
     pixi shell -e examples
 
 To run a shell with everything (dev and example deps:
-_::
+::
 
     pixi shell -e all
 
 Installing xarray-subset-grid via PyPI
 ---------------------------
 
-An alternative to Conda is using pip::
+An alternative to Conda is using pip
+::
 
     pip install xarray_subset_grid@git+https://github.com/asascience-open/xarray-subset-grid.git
     .. pip install xarray-subset-grid
@@ -76,17 +77,19 @@ An alternative to Conda is using pip::
 Installing xarray-subset-grid from source (Github)
 ---------------------------------------
 Install
-`git <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>`__
-(link with instructions) on your system if not already available (check
+`Git <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>`__
+ on your system if not already available (check
 with ``git --version`` at the command line.)
 
 If you are interested in installing xarray-subset-grid from source, 
-you will first need to get the latest version of the code::
+you will first need to get the latest version of the code
+::
 
     git clone https://github.com/asascience-open/xarray-subset-grid.git
     cd xarray-subset-grid
 
-Run the following command from the root-directory::
+Run the following command from the root-directory
+::
 
     pip install .
 
